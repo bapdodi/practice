@@ -11,23 +11,13 @@ import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) throws Exception {
        
-        
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
- 
-		int N = Integer.parseInt(br.readLine());
- 
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
- 
-		for (int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine(), " ");
-			sb.append(Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()));
-			sb.append('\n');
-		}
- 
-		System.out.println(sb);
-        
-        
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = 0;
+        for(int i=1; i<=a; i++){
+            b = b+i; 
+        }
+        System.out.println(b);
         //h
         
         // String[] A = new String[3];
