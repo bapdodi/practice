@@ -18,7 +18,7 @@ public class Main {
             b = b+i; 
         }
         System.out.println(b);
-        //h
+        //hfff
         
         // String[] A = new String[3];
         // int test1 = scanner.nextInt();
